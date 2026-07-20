@@ -1,0 +1,43 @@
+
+
+.main-section{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     height: 100vh; 
+     background-color: beige;
+}
+
+.container{
+    background-color: rgb(186, 134, 238);
+    padding: 50px 50px ;
+    box-shadow: 2px 2px 10px rgb(241, 26, 158);
+    border-radius: 6px;
+    
+}
+
+.player-score{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.score-number{
+    font-size: 20px;
+    color: rgb(218, 241, 13);
+    font-weight: 700;
+    margin-left :5px; 
+}
+
+.balls{
+      color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.balls-number{
+      font-size: 20px;
+    color: rgb(218, 241, 13);
+    font-weight: 700;
+    margin-left :5px;
+}

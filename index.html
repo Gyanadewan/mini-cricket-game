@@ -7,17 +7,18 @@
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-      <section>
-              <div>
+      <section class="main-section">
+              <div class="container">
                   <div>
-                     <span>Player Score:</span><span id="score">0</span>
+                     <span class="player-score">Player Score:</span><span class="score-number" id="score">0</span>
                   </div>
                   <div>
-                    <span>Balls: <span id="balls">100</span></span>
+                    <span class="balls">Balls: <span class="balls-number" id="balls">100</span></span>
                   </div>
+                   <button onclick="batbtn()">Bat</button>
+                  <button onclick="restart()">Restart</button>
               </div>
-              <button onclick="batbtn()">Bat</button>
-              <button onclick="restart()">Restart</button>
+             
       </section>
       <script src="index.js">
 
