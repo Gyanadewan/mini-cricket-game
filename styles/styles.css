@@ -41,3 +41,45 @@
     font-weight: 700;
     margin-left :5px;
 }
+
+.bat-img{
+    width: 50px;
+    border-radius: 10px;
+}
+
+.restart-img{
+    width: 50px;
+    border-radius: 10px;
+}
+
+.btn-contain{
+    display: flex;
+    gap: 10px;
+     margin: 50px;
+}
+.bat-btn{
+    background-color: rgb(229, 14, 154);
+     border-radius: 10px;
+    padding: 8px;
+    border: none;
+    transition: background-color 0.8s ease;
+}
+
+.bat-btn:hover{
+    background-color: rgb(71, 13, 245);
+     transform: scale(1.05);
+
+}
+.restart-btn{
+    background-color: rgb(229, 14, 154);
+    padding: 10px;
+    border:none;
+    border-radius: 10px;
+    transition: background-color 0.8s ease;
+}
+
+.restart-btn:hover{
+    background-color: rgb(71, 13, 245);
+     transform: scale(1.05);
+
+}
